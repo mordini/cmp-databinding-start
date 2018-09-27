@@ -11,7 +11,7 @@ export class ServerElementComponent implements OnInit {
   //can be exposed outside of here
   //it is basically a function, and needs ()
 
- @Input() element: {type: string, name: string, content: string};
+ @Input('srvElement') element: {type: string, name: string, content: string};
 
   constructor() { }
 
